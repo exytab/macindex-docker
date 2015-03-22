@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>System.ComponentModel.Primitives</id>
+    <version>4.0.0-beta-22605</version>
+    <title>System.ComponentModel.Primitives</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</licenseUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Provides interfaces that are used to implement the run-time and design-time behavior of components.
+
+Commonly Used Types:
+System.ComponentModel.IComponent
+System.ComponentModel.IContainer
+System.ComponentModel.ISite
+System.ComponentModel.ComponentCollection</description>
+    <summary>Provides interfaces that are used to implement the run-time and design-time behavior of components.</summary>
+    <copyright>Copyright © Microsoft Corporation</copyright>
+    <dependencies>
+      <dependency id="System.ComponentModel" version="4.0.0-beta-22605" />
+      <dependency id="System.Runtime" version="4.0.0-beta-22605" />
+    </dependencies>
+  </metadata>
+</package>

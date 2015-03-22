@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>System.Security.Cryptography.Hashing.Algorithms</id>
+    <version>4.0.0-beta-22605</version>
+    <title>System.Security.Cryptography.Hashing.Algorithms</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</licenseUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Provides concrete implementations of cryptographic hashing and hash-based message authentication code (HMAC), including MD5, SHA-1, and SHA-2.
+
+Commonly Used Types:
+System.Security.Cryptography.HMACSHA1
+System.Security.Cryptography.SHA256
+System.Security.Cryptography.SHA1
+System.Security.Cryptography.SHA512
+System.Security.Cryptography.SHA384
+System.Security.Cryptography.HMACSHA256
+System.Security.Cryptography.MD5
+System.Security.Cryptography.HMACSHA384
+System.Security.Cryptography.HMACSHA512</description>
+    <summary>Provides concrete implementations of cryptographic hashing and hash-based message authentication code (HMAC), including MD5, SHA-1, and SHA-2.</summary>
+    <copyright>Copyright © Microsoft Corporation</copyright>
+    <dependencies>
+      <dependency id="System.Runtime" version="4.0.0-beta-22605" />
+      <dependency id="System.Security.Cryptography.Hashing" version="4.0.0-beta-22605" />
+    </dependencies>
+  </metadata>
+</package>

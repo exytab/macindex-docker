@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>System.Diagnostics.Tools</id>
+    <version>4.0.0-beta-22605</version>
+    <title>System.Diagnostics.Tools</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</licenseUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Provides attributes, such as GeneratedCodeAttribute and SuppresMessageAttribute, that are emitted or consumed by analysis tools.
+
+Commonly Used Types:
+System.CodeDom.Compiler.GeneratedCodeAttribute
+System.Diagnostics.CodeAnalysis.SuppressMessageAttribute</description>
+    <summary>Provides attributes, such as GeneratedCodeAttribute and SuppresMessageAttribute, that are emitted or consumed by analysis tools.</summary>
+    <copyright>Copyright © Microsoft Corporation</copyright>
+    <dependencies>
+      <dependency id="System.Runtime" version="4.0.0-beta-22605" />
+    </dependencies>
+  </metadata>
+</package>

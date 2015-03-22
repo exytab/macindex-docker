@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>@ViewBag.Title </title>
+
+	<link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" href="~/css/site.css" />
+	@*<link rel="stylesheet" href="~/lib/bootstrap-touch-carousel/css/bootstrap-touch-carousel.css" />*@
+	<link rel="stylesheet" href="~/lib/jquery-focuspoint/focuspoint.css" />
+	<style>
+		html,body,.focuspoint{
+	height: 100%;
+	width: 100%;
+	max-height: none;
+	max-width: none;
+	overflow: hidden;/*Prevent scrollbars in IE8*/
+	margin: 0;
+}
+	</style>
+</head>
+<body>
+	@*<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				@Html.ActionLink("MAC Index", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+			</div>
+		</div>
+	</div>*@
+	<div class="container-fluid" style="height:100%">
+		@RenderBody()
+	</div>
+	<script src="~/lib/jquery/jquery.js"></script>
+	<script src="~/lib/bootstrap/js/bootstrap.js"></script>
+	@*<script src="~/lib/hammer.js/hammer.js"></script>*@
+	@*<script src="~/lib/bootstrap-touch-carousel/js/bootstrap-touch-carousel.js"></script>*@
+	<script src="~/lib/jquery-focuspoint/jquery.focuspoint.js"></script>
+	@RenderSection("scripts", required: false)
+	<script type="text/javascript">
+		(function($) {
+			$(document).ready(function () {
+				@RenderSection("DocumentReady", false)
+			});
+		}(jQuery));
+	</script>
+</body>
+</html>

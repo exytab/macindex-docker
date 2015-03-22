@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.VisualStudio.Web.BrowserLink.Loader</id>
+    <version>14.0.0-beta3</version>
+    <title>Microsoft Visual Studio Browser Link</title>
+    <authors>Microsoft Corporation</authors>
+    <owners>Microsoft Corporation</owners>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_ENU.htm</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Support for Browser Link connections in ASP.NET 5.</description>
+    <summary>Support for Browser Link connections in ASP.NET 5.</summary>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>asp.net</tags>
+    <dependencies>
+      <group targetFramework="ASP.Net5.0">
+        <dependency id="Microsoft.AspNet.Http" version="1.0.0-beta3" />
+        <dependency id="Microsoft.AspNet.FileProviders" version="1.0.0-beta3" />
+        <dependency id="Microsoft.Framework.Runtime.Interfaces" version="1.0.0-beta3" />
+      </group>
+      <group targetFramework="ASP.NetCore5.0">
+        <dependency id="Microsoft.AspNet.Http" version="1.0.0-beta3" />
+        <dependency id="Microsoft.AspNet.FileProviders" version="1.0.0-beta3" />
+        <dependency id="Microsoft.Framework.Runtime.Interfaces" version="1.0.0-beta3" />
+        <dependency id="System.Reflection.Extensions" version="4.0.0-beta-22605" />
+        <dependency id="System.Runtime.InteropServices" version="4.0.20-beta-22605" />
+        <dependency id="System.Threading" version="4.0.10-beta-22605" />
+        <dependency id="System.Net.Sockets" version="4.0.0-beta-22605" />
+        <dependency id="System.Collections" version="4.0.10-beta-22605" />
+        <dependency id="Microsoft.Win32.Registry" version="4.0.0-beta-22605" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="ASP.Net5.0" />
+      <frameworkAssembly assemblyName="System" targetFramework="ASP.Net5.0" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="ASP.Net5.0" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="ASP.Net5.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

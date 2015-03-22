@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>System.Security.Principal.Windows</id>
+    <version>4.0.0-beta-22605</version>
+    <title>System.Security.Principal.Windows</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</licenseUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Provides classes for retrieving the current Windows user and for interacting with Windows users and groups.
+
+Commonly Used Types:
+System.Security.Principal.WindowsIdentity
+System.Security.Principal.SecurityIdentifier
+System.Security.Principal.NTAccount
+System.Security.Principal.WindowsPrincipal
+System.Security.Principal.IdentityReference
+System.Security.Principal.IdentityNotMappedException
+System.Security.Principal.WindowsBuiltInRole
+System.Security.Principal.WellKnownSidType</description>
+    <summary>Provides classes for retrieving the current Windows user and for interacting with Windows users and groups.</summary>
+    <copyright>Copyright © Microsoft Corporation</copyright>
+    <dependencies>
+      <dependency id="System.Runtime" version="4.0.0-beta-22605" />
+      <dependency id="System.Runtime.Handles" version="4.0.0-beta-22605" />
+      <dependency id="System.Security.Claims" version="4.0.0-beta-22605" />
+      <dependency id="System.Security.Principal" version="4.0.0-beta-22605" />
+    </dependencies>
+  </metadata>
+</package>

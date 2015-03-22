@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.Globalization.Extensions</id>
+    <version>4.0.0-beta-22605</version>
+    <title>System.Globalization.Extensions</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</licenseUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Provides classes for performing unicode string normalization, culture-specific string comparisons and support the use of non-ASCII characters for Internet domain names.
+
+Commonly Used Types:
+System.StringNormalizationExtensions
+System.Text.NormalizationForm
+System.Globalization.IdnMapping</description>
+    <summary>Provides classes for performing unicode string normalization, culture-specific string comparisons and support the use of non-ASCII characters for Internet domain names.</summary>
+    <copyright>Copyright © Microsoft Corporation</copyright>
+    <dependencies>
+      <dependency id="System.Globalization" version="4.0.0-beta-22605" />
+      <dependency id="System.Runtime" version="4.0.0-beta-22605" />
+      <dependency id="System.Runtime.Extensions" version="4.0.0-beta-22605" />
+    </dependencies>
+  </metadata>
+</package>
