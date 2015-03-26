@@ -1,0 +1,47 @@
+{
+    "webroot": "wwwroot",
+    "version": "1.0.0-*",
+    "dependencies": {
+        "System.Runtime": "4.0.20-beta-22709",
+        "Microsoft.AspNet.Server.WebListener": "1.0.0-beta3",
+        "Microsoft.AspNet.Mvc": "6.0.0-beta3",
+        "Microsoft.AspNet.StaticFiles": "1.0.0-beta3",
+        "Microsoft.AspNet.Diagnostics.Entity": "7.0.0-beta3",
+        "Microsoft.Framework.ConfigurationModel.Json": "1.0.0-beta3",
+        "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-beta3",
+        "StackExchange.Redis": "1.0.394"
+    },
+    "commands": {
+        /* Change the port number when you are self hosting this application */
+		"web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5000",
+		"kestrel": "Microsoft.AspNet.Hosting --server Kestrel --server.urls http://localhost:5004"
+    },
+    "frameworks": {
+        "aspnet50": {
+            "frameworkAssemblies": {
+				"System.Net.Http": "4.0.0.0"
+            }
+        },
+        "aspnetcore50": {
+            "dependencies": {
+				"System.Net.Http": "4.0.0-beta-22605"
+            }
+        }
+    },
+    "bundleExclude": [
+        "node_modules",
+        "bower_components",
+        "**.kproj",
+        "**.user",
+        "**.vspscc"
+    ],
+    "exclude": [
+        "wwwroot",
+        "node_modules",
+        "bower_components"
+    ],
+	"scripts": {
+		"postrestore": [ "npm install" ],
+		"prepare": [ "grunt bower:install" ]
+	}
+}
